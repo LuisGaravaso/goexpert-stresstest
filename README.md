@@ -81,8 +81,8 @@ docker run --name meu-container luisgaravaso/stresstest --url http://google.com 
 
 2. Copie os arquivos gerados para o seu sistema:
 ```bash
-docker cp meu-container:/app/report.json ./report.json
-docker cp meu-container:/app/report.md ./report.md
+docker cp meu-container:./report.json ./report.json
+docker cp meu-container:./report.md ./report.md
 ```
 
 > 💡 Lembre-se: Utilize a flag `-s` para incluir os dados individuais de cada requisição.
