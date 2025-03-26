@@ -52,6 +52,12 @@ cd stresstest
 go run cmd/stresstest/main.go --url http://google.com --requests 10 --concurrency 2
 ```
 
+### 3. Resultado
+
+> Você verá um resultado como:
+<img src="./readme/TestGoogle.png" width="600px">
+
+
 ---
 
 ### 3. Parâmetros da CLI
